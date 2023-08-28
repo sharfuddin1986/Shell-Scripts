@@ -8,7 +8,7 @@
 #  whose name are nginx any where in linux machine
 #  Its very full during unintsall of any tools
 #  ---------------------------------------------------
-#  Author : sharfuddin
+#  Author : Md sharfuddin
 #  
 #
 #####################################################
