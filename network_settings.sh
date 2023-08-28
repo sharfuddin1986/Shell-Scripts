@@ -1,6 +1,6 @@
 # BEFORE EXECUTE THE SCRIPT PLEASE THE INSTRUCTION CAREFULLY 
 # ----------------------------------------------------------
-# Author : sharfuddin | sharfuddinmd@gmail.com
+# Author : Md sharfuddin | sharfuddinmd@gmail.com
 # ----------------------------------------------------------
 # Instructions - 
 #1) Make sure to modify the interface, new_ip, new_subnet, new_gateway,
