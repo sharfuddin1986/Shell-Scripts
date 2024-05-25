@@ -1,0 +1,15 @@
+#!/bin/bash
+#this is the while loopd
+<< comment
+1  is argument which start folder
+2  is start range 
+3  is end 
+commnet
+
+for (( num=2 ; num<=40 ; num++ )) ;
+
+do   
+
+    mkdir "$1$num"
+
+done 
