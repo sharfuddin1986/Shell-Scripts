@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# List of users to create
+users=("user1" "user2" "user3" "user4" "user5" "user" "user7" "user")
+
+# Default password for new users
+default_password="password123"
+
+# Loop through the list and create each user
+for user in "${users[@]}"; do
+    # Check if user already exists
+    if id "$user" &>/dev/null; then
+        echo "User $user already exists"
+    else
+        # Create the user
+        sudo useradd -m "$user"
+        echo "User $user created"
+
+        # Set the user's password
+        echo "$user:$default_password" | chpasswd
+        echo "Password for user $user set to $default_password"
+    fi
+done
