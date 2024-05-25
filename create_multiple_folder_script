@@ -4,7 +4,7 @@
 1  is argument which start folder
 2  is start range 
 3  is end 
-commnet
+comment
 
 for (( num=2 ; num<=40 ; num++ )) ;
 
