@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this is for and while loops 
+# this is for creation multiple folder 
 
 for ((num=1 ; num<=40 ; num++ )) ;
 
