@@ -1,15 +1,12 @@
 #!/bin/bash
-#this is the while loopd
-<< comment
-1  is argument which start folder
-2  is start range 
-3  is end 
-comment
 
-for (( num=2 ; num<=40 ; num++ )) ;
+# this is for and while loops 
 
-do   
+for ((num=1 ; num<=40 ; num++ )) ;
 
-    mkdir "$1$num"
+do 
+
+     mkdir "saif$num"
+
 
 done 
