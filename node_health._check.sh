@@ -18,3 +18,6 @@ free -g
 
 nproc
 
+https://www.youtube.com/watch?v=-PMX5lQGsVw
+
+
