@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+#### Author-Md sharfuddin
+#### date -10-01-2024
+#### Version-v1
+#### divisible by 3 ,divisable by 5 , not 3*5=15     for loop 1 ...100
+
+for i  in {1..100}; do
+if ([ `expr $i % 3` == 0 ] || [ `expr $i % 5` == 0 ]) && [ `expr $i % 15` != 0 ];
+then
+      echo $i
+fi;
+done
+
